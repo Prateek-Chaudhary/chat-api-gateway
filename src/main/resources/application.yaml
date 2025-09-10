@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: chat-gateway
+
+  profiles:
+    active: dev
+
+server:
+  port: ${SERVER.PORT}
